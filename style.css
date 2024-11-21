@@ -3,6 +3,10 @@
     src: url(assists/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
 
+* {
+    font-family: "inter";
+}
+
 .hdr {
     width: 100%;
     height: 100px;
@@ -11,17 +15,20 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.srchbrdrpd{
+
+.srchbrdrpd {
     width: 40%;
     height: 100%;
     background-color: rebeccapurple;
 }
-.logo{
+
+.logo {
     width: 20%;
     height: 100%;
     background-color: aqua;
 }
-.drpdwns{
+
+.drpdwns {
     width: 40%;
     height: 100%;
     color: brown;
@@ -34,6 +41,56 @@
     background-size: cover;
 }
 
+.hmimg1 {
+    width: 100%;
+    height: 640px;
+    background-color: #1b1b1d85;
+}
+
+.hmcntnt {
+    width: 40%;
+    height: 50%;
+    color: #ffffff;
+}
+
+.h272 {
+    font-size: 60px;
+    margin: 0px auto 0px;
+}
+.sabtn{
+    width: 245px;
+    height: 46px;
+    font-size: 22px;
+    background-color: #d83933;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.hmclnks{
+    width: 80%;
+    height: 83px;
+    /* background-color: green; */
+    margin: 60px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lbl{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.hmcntntnlnk{
+    width: 80%;
+    height: 75%;
+    /* background-color: yellow; */
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+}
 .featurednews {
     margin: 0px auto;
     background-color: grey;
@@ -351,11 +408,12 @@
     height: 70%;
     background-color: blue;
 }
-.aboutnasa-img{
+
+.aboutnasa-img {
     display: flex;
     flex-direction: column;
-   
-    
+
+
 }
 
 
@@ -366,7 +424,8 @@
     width: 100%;
     text-align: left;
 }
-.lazy{
+
+.lazy {
     width: 100%;
     height: 620px;
     color: #ffffff;
@@ -374,23 +433,27 @@
     background: url("assists/images/webb-tarantula-neb.webp");
     background-size: cover;
 }
-.inbox{
+
+.inbox {
     width: 30%;
     height: 100%;
     position: relative;
     top: 150px;
     left: 100px;
 }
-.inbox>h2{
+
+.inbox>h2 {
     font-size: 56px;
-    font-family: "Public Sans Web",;
+    font-family: "Public Sans Web", ;
 }
-.moretopic{
+
+.moretopic {
     width: 100%;
     height: 74rem;
     background-color: green;
 }
-.moretopic-box{
+
+.moretopic-box {
     width: 85%;
     height: 90%;
     margin: 0px auto;
@@ -400,63 +463,83 @@
     justify-content: space-between;
     align-items: center;
 }
-.moretopic>div>h2{
+
+.moretopic>div>h2 {
     font-size: 40px;
     font-family: "inter";
     position: relative;
     left: 8%;
 }
-.moretopic-box1, .moretopic-box2, .moretopic-box3, .moretopic-box4, .moretopic-box5, .moretopic-box6, .moretopic-box7, .moretopic-box8{
+
+.moretopic-box1,
+.moretopic-box2,
+.moretopic-box3,
+.moretopic-box4,
+.moretopic-box5,
+.moretopic-box6,
+.moretopic-box7,
+.moretopic-box8 {
     width: 23%;
     /* height: 445px; */
     height: 45%;
     background-color: yellow;
 }
-.moretopic-box1{
+
+.moretopic-box1 {
     background: url(assists/images/missions.webp);
     background-size: cover;
 }
-.heading2{
+
+.heading2 {
     color: #ffffff;
-    font-size: 28,px;
+    font-size: 28, px;
     font-family: "inter";
     position: relative;
     top: 85%;
     left: 5%;
 }
-.moretopic-box2{
+
+.moretopic-box2 {
     background: url(assists/images/topic-humans-in-space.webp);
     background-size: cover;
 }
-.moretopic-box3{
+
+.moretopic-box3 {
     background: url(assists/images/climatechange.webp);
     background-size: cover;
 }
-.moretopic-box4{
+
+.moretopic-box4 {
     background: url(assists/images/solar-system-illustration-16x9-1.webp);
     background-size: cover;
 }
-.moretopic-box5{
+
+.moretopic-box5 {
     background: url(assists/images/universe.webp);
     background-size: cover;
 }
-.moretopic-box6{
+
+.moretopic-box6 {
     background: url(assists/images/sciencenews.webp);
     background-size: cover;
 }
-.moretopic-box7{
+
+.moretopic-box7 {
     background: url(assists/images/aero-topic-card.webp);
     background-size: cover;
 }
-.moretopic-box8{
+
+.moretopic-box8 {
     background: url(assists/images/nasa_technology1.webp);
     background-size: cover;
 }
+
 .circle {
-    fill: red; /* Example color for the circle */
-  }
-  
-  .arrow {
-    fill: #FFFFFF; /* Example color for the path */
-  }
-  
+    fill: red;
+    /* Example color for the circle */
+}
+
+.arrow {
+    fill: #FFFFFF;
+    /* Example color for the path */
+}
