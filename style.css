@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "inter";
+    src: url(assists/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
 .hdr {
     width: 100%;
     height: 100px;
@@ -24,9 +29,8 @@
 
 .hmimg {
     width: 100%;
-    height: 440px;
-    background-image: url("assists/images/nasahome.webp");
-    background-repeat: no-repeat;
+    height: 640px;
+    background-image: url("assists/images/artimis.webp");
     background-size: cover;
 }
 
@@ -362,3 +366,97 @@
     width: 100%;
     text-align: left;
 }
+.lazy{
+    width: 100%;
+    height: 620px;
+    color: #ffffff;
+    background-color: pink;
+    background: url("assists/images/webb-tarantula-neb.webp");
+    background-size: cover;
+}
+.inbox{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.inbox>h2{
+    font-size: 56px;
+    font-family: "Public Sans Web",;
+}
+.moretopic{
+    width: 100%;
+    height: 74rem;
+    background-color: green;
+}
+.moretopic-box{
+    width: 85%;
+    height: 90%;
+    margin: 0px auto;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.moretopic>div>h2{
+    font-size: 40px;
+    font-family: "inter";
+    position: relative;
+    left: 8%;
+}
+.moretopic-box1, .moretopic-box2, .moretopic-box3, .moretopic-box4, .moretopic-box5, .moretopic-box6, .moretopic-box7, .moretopic-box8{
+    width: 23%;
+    /* height: 445px; */
+    height: 45%;
+    background-color: yellow;
+}
+.moretopic-box1{
+    background: url(assists/images/missions.webp);
+    background-size: cover;
+}
+.heading2{
+    color: #ffffff;
+    font-size: 28,px;
+    font-family: "inter";
+    position: relative;
+    top: 85%;
+    left: 5%;
+}
+.moretopic-box2{
+    background: url(assists/images/topic-humans-in-space.webp);
+    background-size: cover;
+}
+.moretopic-box3{
+    background: url(assists/images/climatechange.webp);
+    background-size: cover;
+}
+.moretopic-box4{
+    background: url(assists/images/solar-system-illustration-16x9-1.webp);
+    background-size: cover;
+}
+.moretopic-box5{
+    background: url(assists/images/universe.webp);
+    background-size: cover;
+}
+.moretopic-box6{
+    background: url(assists/images/sciencenews.webp);
+    background-size: cover;
+}
+.moretopic-box7{
+    background: url(assists/images/aero-topic-card.webp);
+    background-size: cover;
+}
+.moretopic-box8{
+    background: url(assists/images/nasa_technology1.webp);
+    background-size: cover;
+}
+.circle {
+    fill: red; /* Example color for the circle */
+  }
+  
+  .arrow {
+    fill: #FFFFFF; /* Example color for the path */
+  }
+  
