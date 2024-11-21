@@ -1,0 +1,364 @@
+.hdr {
+    width: 100%;
+    height: 100px;
+    /* background-color: #000000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.srchbrdrpd{
+    width: 40%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+}
+.drpdwns{
+    width: 40%;
+    height: 100%;
+    color: brown;
+}
+
+.hmimg {
+    width: 100%;
+    height: 440px;
+    background-image: url("assists/images/nasahome.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.featurednews {
+    margin: 0px auto;
+    background-color: grey;
+    width: 80%;
+    height: 110vh;
+
+}
+
+.news {
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.box1 {
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    background-image: url(assists/images/curiosityrover.webp);
+    background-size: cover;
+}
+
+.box2 {
+    width: 20%;
+    height: 400px;
+    background-color: red;
+    background-image: url(assists/images/leaderofspacetechnology.webp);
+    background-size: cover;
+}
+
+.box3 {
+    width: 20%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.box3>div {
+    width: 100%;
+    height: 192px;
+}
+
+.article {
+    width: 100%;
+    height: 11.111vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+
+.min1,
+.min2,
+.min3,
+.min4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.atrcl1,
+.atrcl2,
+.atrcl3,
+.atrcl4 {
+    width: 190px;
+    height: 80px;
+    background-color: chocolate;
+}
+
+.vdo {
+    width: 100%;
+    height: 880px;
+}
+
+.datatolife {
+    width: 47%;
+    height: 370px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+.myvideo {
+    width: inherit;
+    height: inherit;
+}
+
+#myVideo {
+    width: 100%;
+    height: 880px;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    background: transparent;
+    color: #f1f1f1;
+    width: 50%;
+    height: 370px;
+    position: relative;
+    bottom: 600px;
+    left: 70px;
+}
+
+.vdo>.myvideo>.content>h2 {
+    font-size: 80px;
+}
+
+.vdo>.myvideo>.content>p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.vdo>.myvideo>.content>a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.rth {
+    width: 100%;
+    height: 406px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.picbtn {
+    width: 100%;
+    height: 406px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.picbtn1 {
+    width: 23%;
+    height: 406px;
+    background: url('assists/images/earth.jpg');
+    background-size: cover;
+}
+
+.picbtn2 {
+    width: 23%;
+    height: 406px;
+    background: url('assists/images/exploreearthscience.jpg');
+    background-size: cover;
+}
+
+.picbtn3 {
+    width: 23%;
+    height: 406px;
+    background: url('assists/images/climatechange.webp');
+    background-size: cover;
+}
+
+.picbtn4 {
+    width: 23%;
+    height: 406px;
+    background: url('assists/images/climatechangemultimedia.webp');
+    background-size: cover;
+}
+
+.eplo {
+    width: 100%;
+    height: 880px;
+    background-color: green;
+    background: url('assists/images/earthinformationcenter.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageoftheday {
+    width: 100%;
+    height: 532px;
+    margin-top: 20px;
+    padding: 16px 0px 16px;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageoftheday1 {
+    width: 35%;
+    height: 532px;
+    /* background-color: gray; */
+}
+
+.imageoftheday2 {
+    width: 50%;
+    height: 34rem;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+}
+
+.imageoftheday>.imageoftheday1>.label {
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.imageoftheday>.imageoftheday1>h2 {
+    margin: 0px auto;
+    font-size: 2.562rem;
+}
+
+.imageoftheday>.imageoftheday1>p {
+    line-height: 1.65em;
+    font-size: 1rem;
+}
+
+.imageoftheday>.imageoftheday1>h4 {
+    font-size: 22px;
+}
+
+.mrimg {
+    width: 90%;
+    height: 440px;
+    margin: 0px auto;
+
+}
+
+.moreimages {
+    width: 100%;
+    height: 18rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.moreimages-box1 {
+    width: 33%;
+    height: 17.5rem;
+    background-color: yellow;
+}
+
+.moreimages-box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 100%;
+    height: 195px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img1 {
+    width: 63%;
+    height: 100%;
+}
+
+.img2 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img2-1 {
+    width: 100%;
+    height: 48%;
+}
+
+.label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #77777a;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.aboutnasa {
+    width: 100%;
+    height: 537px;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+
+.aboutnasa>.aboutnasa-cnt {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.aboutnasa>.aboutnasa-img {
+
+    width: 45%;
+    height: 70%;
+    background-color: blue;
+}
+.aboutnasa-img{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+
+.hds-caption-text {
+    font-size: .75rem;
+    line-height: 1.25rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
