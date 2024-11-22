@@ -550,3 +550,91 @@ span{
     fill: #FFFFFF;
     /* Example color for the path */
 }
+footer{
+    font-family: "Public Sans Web", Helvetica, Arial, sans-serif,Color Symbol;
+    font-size: 1.38rem;
+    line-height: 1.8;
+}
+.footer-content{
+    width: 100%;
+    height: 835px;
+    background-color: black;
+    padding: 56px 24px;
+}
+.footer-box1{
+    width: 100%;
+    height: 15%;
+    background-color: yellow;
+}
+.footer-box2{
+    width: 100%;
+    height: 70%;
+    background-color: green;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.footer-box2-chld1,
+.footer-box2-chld2{
+    width: 49%;
+    height: 48%;
+    background-color: blue;
+}
+.footer-box2-chld3{
+    width: 34%;
+    height: 24%;
+    background-color: #d83933;
+}
+.footer-box2-chld4{
+    width: 64%;
+    height: 24%;
+    background-color: aqua;
+}
+.footer-box2-chld5{
+    width: 100%;
+    height: 23%;
+    background-color: chartreuse;
+}
+.footer-box2-chld2>div{
+    font-size: 14px;
+    width: 50%;
+    height: 30px;
+
+}
+.footer-box2-chld2{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+.footer-box2-chld3{
+    font-size: 14px !important;
+    z-index: 1000;
+}
+
+
+
+
+
+/* font-feature-settings: "kern" 1;
+font-kerning: normal;
+-webkit-text-size-adjust: 100%;
+--wp-admin-theme-color: #007cba;
+--wp-admin-theme-color--rgb: 0,124,186;
+--wp-admin-theme-color-darker-10: #006ba1;
+--wp-admin-theme-color-darker-10--rgb: 0,107,161;
+--wp-admin-theme-color-darker-20: #005a87;
+--wp-admin-theme-color-darker-20--rgb: 0,90,135;
+--wp-admin-border-width-focus: 2px;
+--wp-block-synced-color: #7a00df;
+--wp-block-synced-color--rgb: 122,0,223;
+--wp-bound-block-color: #9747ff;
+--wp--preset--font-size--normal: 16px;
+--wp--preset--font-size--huge: 42px;
+font-family: Public Sans Web,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+font-size: 1.38rem;
+line-height: 1.8;
+box-sizing: inherit;
+margin-left: 0;
+width: fit-content;
+color: #fff;
+fill: #fff; */
