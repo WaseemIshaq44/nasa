@@ -10,22 +10,52 @@
 .hdr {
     width: 100%;
     height: 100px;
-    /* background-color: #000000; */
+    font-size: 18px;
+    background-color: #000000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.nasaplus, select, input{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    background-color: #000000;
+    color:#ffffff;
+    margin-top: 30px;
+    text-decoration: none;
+}
+a{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.live{
+    border: 1px solid #d83933;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-size: 11px;
+
 }
 
 .srchbrdrpd {
     width: 40%;
     height: 100%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 }
 
 .logo {
-    width: 20%;
+    width: 15%;
     height: 100%;
-    background-color: aqua;
+    padding-top: 15px;
+    /* background-color: aqua; */
 }
 
 .drpdwns {
@@ -49,7 +79,7 @@
 
 .hmcntnt {
     width: 50%;
-    height: 50%;
+    height: 70%;
     color: #ffffff;
 }
 
@@ -91,7 +121,8 @@
     height: 75%;
     /* background-color: yellow; */
     position: relative;
-    top: 220px;
+    top: 150px;
+    left: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -100,52 +131,145 @@ span{
 }
 .featurednews {
     margin: 0px auto;
+    margin-top: 30px;
     background-color: grey;
-    width: 80%;
-    height: 110vh;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 
 .news {
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: aqua;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .box1 {
-    width: 50%;
-    height: 400px;
+    color: #ffffff;
+    width: 45%;
+    height: 100%;
     background-color: black;
-    background-image: url(assists/images/curiosityrover.webp);
+    background-image: url(assists/images/newbornplanet.webp);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.box1>div{
+    padding: 24px;
+}
+.box1>div>span{
+    font-size: 0.70rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.box1>div>h1{
+    font-size: 22px;
+}
+.bookmark-path {
+    fill: #ffffff; /* Example color for the bookmark */
+  }
+  
 
 .box2 {
-    width: 20%;
-    height: 400px;
-    background-color: red;
-    background-image: url(assists/images/leaderofspacetechnology.webp);
+    width: 24%;
+    height: 100%;
+    background-color: #d83933;
+    background-image: url(assists/images/healthcareinspace.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box2>div{
+    color: #ffffff;
+    padding: 24px;
+}
+.box2>div>h1{
+    font-size: 22px;
+}
+.box2>div>span{
+    font-size: 0.70rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
+
 .box3 {
-    width: 20%;
-    height: 400px;
+    width: 24%;
+    height: 100%;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .box3>div {
     width: 100%;
-    height: 192px;
+    height: 48%;
 }
+.dazzlingsimulation{
+    background-image: url(assists/images/dazzlingsimulation.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.handedness{
+    background-image: url(assists/images/handednessdeepens.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.box3>div{
+    color: #ffffff;
+}
+.box3> .dazzlingsimulation> div>h1{
+    font-size: 20px;
+}
+.box3> .dazzlingsimulation >div>span{
+    font-size: 0.70rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.box3> .dazzlingsimulation> div{
+    margin-top: 24px;
+}
+
+.box3> .handedness div{
+    color: #ffffff;
+    /* background-color: pink; */
+    margin-top: 24px;
+}
+.box3> .handedness> div>h1{
+    font-size: 20px;
+}
+.box3> .handedness >div>span{
+    font-size: 0.70rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
 
 .article {
     width: 100%;
-    height: 11.111vh;
+    height: 15vh;
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
@@ -155,6 +279,7 @@ span{
 .min2,
 .min3,
 .min4 {
+    width: 25%;
     display: flex;
     flex-direction: row;
 }
@@ -163,20 +288,102 @@ span{
 .circle2,
 .circle3,
 .circle4 {
-    width: 80px;
-    height: 80px;
+    width: 40%;
+    height: 100%;
     border-radius: 50%;
     background-color: brown;
 }
-
+.circle1{
+    background-image: url(assists/images/keymomentsforartemis.webp);
+    background-size: cover;
+}
+.circle2{
+    background: url(assists/images/nasaoceanworld.webp);
+    background-size: cover;
+}
+.circle3{
+    background: url(assists/images/mars-moons-simulations.webp);
+    background-size: cover;
+}
+.circle4{
+    background: url(assists/images/milkyway-desrt-tree-credit-preston-dyches-1.jpg);
+    background-size: cover;
+}
 .atrcl1,
 .atrcl2,
 .atrcl3,
 .atrcl4 {
-    width: 190px;
-    height: 80px;
+    width: 55%;
+    height: 100%;
     background-color: chocolate;
 }
+
+
+.atrcl1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atrcl1> div> h6{
+    margin: 0px;
+}
+.atrcl1> div >span{
+    font-size: 0.70rem;
+    color: #58585C;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.atrcl2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atrcl2> div> h6{
+    margin: 0px;
+}
+.atrcl2> div >span{
+    font-size: 0.70rem;
+    color: #58585C;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+.atrcl3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atrcl3> div> h6{
+    margin: 0px;
+}
+.atrcl3> div >span{
+    font-size: 0.70rem;
+    color: #58585C;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.atrcl4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.atrcl4> div> h6{
+    margin: 0px;
+}
+.atrcl4> div >span{
+    font-size: 0.70rem;
+    color: #58585C;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+
 
 .vdo {
     width: 100%;
@@ -233,7 +440,7 @@ span{
 .rth {
     width: 100%;
     height: 406px;
-    background-color: blue;
+    /* background-color: blue; */
     margin-bottom: 20px;
 }
 
@@ -242,45 +449,83 @@ span{
     height: 406px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .picbtn1 {
     width: 23%;
     height: 406px;
-    background: url('assists/images/earth.jpg');
+    background: url('assists/images/astro-camp.webp');
     background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .picbtn2 {
     width: 23%;
     height: 406px;
-    background: url('assists/images/exploreearthscience.jpg');
+    background: url('assists/images/foreducators.webp');
     background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .picbtn3 {
     width: 23%;
     height: 406px;
-    background: url('assists/images/climatechange.webp');
+    background: url('assists/images/collegsanduniversities.webp');
     background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .picbtn4 {
     width: 23%;
     height: 406px;
-    background: url('assists/images/climatechangemultimedia.webp');
+    background: url('assists/images/forprofessionals.webp');
     background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .eplo {
     width: 100%;
-    height: 880px;
+    height: 750px;
     background-color: green;
-    background: url('assists/images/earthinformationcenter.webp');
+    background: url('assists/images/ksc-20171214-ph-sww01-0009orig.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
+.cnt{
+    color: #ffffff;
+    width: 50%;
+    height: 60%;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.cnt>h2{
+    font-size: 80px;
+}
+.cnt>p{
+    font-size: 18px;
+}
+.transparentbackground{
+    background-color: transparent;
+}
+
 
 .imageoftheday {
     width: 100%;
@@ -305,6 +550,13 @@ span{
     /* background-color: chocolate; */
     display: flex;
     flex-direction: column;
+}
+
+.imageoftheday1>a{
+    color: black;
+}
+.imageoftheday2>a{
+    color: black;
 }
 
 .imageoftheday>.imageoftheday1>.label {
@@ -397,16 +649,25 @@ span{
     height: 537px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: green;
 }
 
 .aboutnasa>.aboutnasa-cnt {
     width: 50%;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: red;
+    background-color: #ff0000;
+}
+.aboutnasa-cnt >h2{
+    font-size: 48px;
+    margin: 0px;
+}
+.aboutnasa-cnt>a{
+    color: #000000;
 }
 
 .aboutnasa>.aboutnasa-img {
@@ -456,7 +717,7 @@ span{
 
 .moretopic {
     width: 100%;
-    height: 74rem;
+    height: 60rem;
     background-color: green;
 }
 
@@ -542,7 +803,7 @@ span{
 }
 
 .circle {
-    fill: red;
+    fill: #d83933;
     /* Example color for the circle */
 }
 
