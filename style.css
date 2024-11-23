@@ -273,6 +273,7 @@ span{
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .min1,
@@ -871,31 +872,188 @@ footer{
     font-size: 14px !important;
     z-index: 1000;
 }
+@media only screen and (max-width: 768px){
+    .drpdwns{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding-left: 300px;
+    }
+    .srchbrdrpd{
+        display: none;
+    }
+    .h272{
+        font-size: 30px;
+    }
+    .hmcntnt>p{
+        font-size: 14px;
+    }
+    .hmcntnt>button{
+        width: 50%;
+        /* height: 50px; */
+        font-size: 18px;
+        padding: 0px;
+    }
+    .hmclnks{
+        width: 100%;
+        font-size: 14px;
+    }
+    .featurednews{
+        height: 1600px;
+    }
+    .featurednews>div>h1{
+        margin: 0px auto;
+        font-size: 24px;
+    }
+    .featurednews>.news>.box1{
+        width: 100%; 
+        height: 500px;
+    }
+    .news{
+        height: 1000px;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .featurednews>.news>.box2{
+        width: 100%; 
+        height: 500px;
+    }
+    .box3{
+        width: 100%;
+    }
+    .article{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        /* height: 1000px; */
+    }
+    .article>.min1, .min2, .min3,.min4{
+        width: 100%;
+        height: 25%;
+    }
+    .circle1, .circle2, .circle3, .circle4{
+        width: 19%;
+    }
+    .atrcl1, .atrcl2, .atrcl3, .atrcl4{
+        width: 80%;
+    }
+
+    /* video */
+    .vdo{
+        height: 880px;
+    }
+    .vdo>.myvideo>.content>h2{
+        font-size: 28px;
+    }
+    .vdo>.myvideo>.content>p{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .vdo>.myvideo>.content>a{
+        font-size: 18px;
+    }
 
 
+    /* 4 cards */
+    .rth{
+        height: 800px;
+    }
+    .rth>.picbtn>.picbtn1, .picbtn2, .picbtn3, .picbtn4{
+        width: 49%;
+    }
+    .picbtn{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: space-between;
+    }
 
 
+    .eplo{
+        height: 750px ;
+    }
+    .eplo>.cnt>h2{
+        font-size: 28px;
+    }
+    .eplo>.cnt>p{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
 
-/* font-feature-settings: "kern" 1;
-font-kerning: normal;
--webkit-text-size-adjust: 100%;
---wp-admin-theme-color: #007cba;
---wp-admin-theme-color--rgb: 0,124,186;
---wp-admin-theme-color-darker-10: #006ba1;
---wp-admin-theme-color-darker-10--rgb: 0,107,161;
---wp-admin-theme-color-darker-20: #005a87;
---wp-admin-theme-color-darker-20--rgb: 0,90,135;
---wp-admin-border-width-focus: 2px;
---wp-block-synced-color: #7a00df;
---wp-block-synced-color--rgb: 122,0,223;
---wp-bound-block-color: #9747ff;
---wp--preset--font-size--normal: 16px;
---wp--preset--font-size--huge: 42px;
-font-family: Public Sans Web,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-font-size: 1.38rem;
-line-height: 1.8;
-box-sizing: inherit;
-margin-left: 0;
-width: fit-content;
-color: #fff;
-fill: #fff; */
+    .imageoftheday{
+        height: 1200px;
+        flex-direction: column-reverse;
+    }
+    .imageoftheday>.imageoftheday1, .imageoftheday2{
+        width: 100%;
+    }
+    .imageoftheday>.imageoftheday1>h2{
+        font-size: 28px;
+    }
+    .imageoftheday>.imageoftheday1>h4{
+        font-size: 18px;
+    }
+
+
+    /* more images */
+    .mrimg{
+        height: 900px;
+    }
+    .mrimg>.moreimages{
+        flex-direction: column;
+    }
+    .moreimages-box1{
+        width: 100%;
+    }
+
+    /* about-nasa */
+    .aboutnasa{
+        flex-direction: column;
+        height: 940px;
+    }
+    .aboutnasa>.aboutnasa-cnt, .aboutnasa-img{
+        width: 90%;
+        height: 360px;
+    }
+    .aboutnasa>.aboutnasa-cnt>h2{
+        font-size: 28px;
+    }
+    .aboutnasa>.aboutnasa-cnt>p{
+        font-size: 14px;
+    }
+    .aboutnasa>.aboutnasa-img{
+        width: 90%;
+    }
+
+
+    /* Explore the Universe frome your Inbox */
+    .lazy{
+        height: 400px;
+    }
+    .lazy>.inbox{
+        width: 100%;
+        height: 80px;
+        left: 10px;
+        /* height: 800px; */
+    }
+    .lazy>.inbox>h2{
+        font-size: 28px;
+    }
+
+    /* moreTopics from NASA */
+    .moretopic{
+        height: 1300px;
+    }
+    .moretopic>div>h2{
+        font-size: 28px;
+    }
+    .heading2{
+        font-size: 18px;
+    }
+    .moretopic>.moretopic-box>.moretopic-box1,.moretopic-box2,.moretopic-box3,.moretopic-box4,.moretopic-box5,.moretopic-box6,.moretopic-box7,.moretopic-box8{
+        width: 45%;
+        height: 270px;
+    }
+}
