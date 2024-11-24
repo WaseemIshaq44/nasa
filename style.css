@@ -48,14 +48,12 @@ a{
 .srchbrdrpd {
     width: 40%;
     height: 100%;
-    /* background-color: rebeccapurple; */
 }
 
 .logo {
     width: 15%;
     height: 100%;
     padding-top: 15px;
-    /* background-color: aqua; */
 }
 
 .drpdwns {
@@ -99,7 +97,6 @@ a{
 .hmclnks{
     width: 80%;
     height: 83px;
-    /* background-color: green; */
     margin: 60px 0px 0px;
     display: flex;
     flex-direction: row;
@@ -119,7 +116,6 @@ a{
 .hmcntntnlnk{
     width: 80%;
     height: 75%;
-    /* background-color: yellow; */
     position: relative;
     top: 150px;
     left: 30px;
@@ -132,7 +128,6 @@ span{
 .featurednews {
     margin: 0px auto;
     margin-top: 30px;
-    background-color: grey;
     width: 90%;
     height: 600px;
     display: flex;
@@ -144,7 +139,6 @@ span{
 .news {
     width: 100%;
     height: 350px;
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -174,14 +168,13 @@ span{
     font-size: 22px;
 }
 .bookmark-path {
-    fill: #ffffff; /* Example color for the bookmark */
+    fill: #ffffff; 
   }
   
 
 .box2 {
     width: 24%;
     height: 100%;
-    background-color: #d83933;
     background-image: url(assists/images/healthcareinspace.jpg);
     background-size: cover;
     display: flex;
@@ -206,7 +199,6 @@ span{
 .box3 {
     width: 24%;
     height: 100%;
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -251,7 +243,6 @@ span{
 
 .box3> .handedness div{
     color: #ffffff;
-    /* background-color: pink; */
     margin-top: 24px;
 }
 .box3> .handedness> div>h1{
@@ -270,7 +261,6 @@ span{
 .article {
     width: 100%;
     height: 15vh;
-    background-color: blueviolet;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -292,7 +282,6 @@ span{
     width: 40%;
     height: 100%;
     border-radius: 50%;
-    background-color: brown;
 }
 .circle1{
     background-image: url(assists/images/keymomentsforartemis.webp);
@@ -316,7 +305,6 @@ span{
 .atrcl4 {
     width: 55%;
     height: 100%;
-    background-color: chocolate;
 }
 
 
@@ -396,7 +384,6 @@ span{
     height: 370px;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
 .myvideo {
     width: inherit;
     height: inherit;
@@ -409,7 +396,6 @@ span{
     min-height: 50%;
 }
 
-/* Add some content at the bottom of the video/page */
 .content {
     background: transparent;
     color: #f1f1f1;
@@ -441,7 +427,6 @@ span{
 .rth {
     width: 100%;
     height: 406px;
-    /* background-color: blue; */
     margin-bottom: 20px;
 }
 
@@ -504,7 +489,6 @@ span{
 .eplo {
     width: 100%;
     height: 750px;
-    background-color: green;
     background: url('assists/images/ksc-20171214-ph-sww01-0009orig.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -533,7 +517,6 @@ span{
     height: 532px;
     margin-top: 20px;
     padding: 16px 0px 16px;
-    /* background-color: crimson; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -542,13 +525,11 @@ span{
 .imageoftheday1 {
     width: 35%;
     height: 532px;
-    /* background-color: gray; */
 }
 
 .imageoftheday2 {
     width: 50%;
     height: 34rem;
-    /* background-color: chocolate; */
     display: flex;
     flex-direction: column;
 }
@@ -594,7 +575,6 @@ span{
 .moreimages {
     width: 100%;
     height: 18rem;
-    background-color: bisque;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -603,7 +583,6 @@ span{
 .moreimages-box1 {
     width: 33%;
     height: 17.5rem;
-    background-color: yellow;
 }
 
 .moreimages-box1 {
@@ -652,7 +631,6 @@ span{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: green;
 }
 
 .aboutnasa>.aboutnasa-cnt {
@@ -661,7 +639,6 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #ff0000;
 }
 .aboutnasa-cnt >h2{
     font-size: 48px;
@@ -675,7 +652,6 @@ span{
 
     width: 45%;
     height: 70%;
-    background-color: blue;
 }
 
 .aboutnasa-img {
@@ -698,7 +674,6 @@ span{
     width: 100%;
     height: 620px;
     color: #ffffff;
-    background-color: pink;
     background: url("assists/images/webb-tarantula-neb.webp");
     background-size: cover;
 }
@@ -719,14 +694,12 @@ span{
 .moretopic {
     width: 100%;
     height: 60rem;
-    background-color: green;
 }
 
 .moretopic-box {
     width: 85%;
     height: 90%;
     margin: 0px auto;
-    background-color: blanchedalmond;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -751,7 +724,6 @@ span{
     width: 23%;
     /* height: 445px; */
     height: 45%;
-    background-color: yellow;
 }
 
 .moretopic-box1 {
@@ -805,12 +777,9 @@ span{
 
 .circle {
     fill: #d83933;
-    /* Example color for the circle */
 }
-
 .arrow {
     fill: #FFFFFF;
-    /* Example color for the path */
 }
 footer{
     font-family: "Public Sans Web", Helvetica, Arial, sans-serif,Color Symbol;
